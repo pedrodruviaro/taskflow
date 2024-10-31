@@ -4,6 +4,7 @@ import '@/assets/main.css'
 import App from '@/App.vue'
 import router from '@/router'
 import PrimeVue from 'primevue/config'
+import ToastService from 'primevue/toastservice'
 import { createApp } from 'vue'
 import { Noir } from '@/assets/presets/Noir'
 import { VueFire, VueFireAuth } from 'vuefire'
@@ -24,6 +25,8 @@ app.use(PrimeVue, {
     },
   },
 })
+
+app.use(ToastService)
 
 app.use(router)
 
