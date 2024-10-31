@@ -13,6 +13,8 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@primevue/themes": "^4.1.1",
+    "primevue": "^4.1.1",
     "vue": "^3.5.12",
     "vue-router": "^4.4.5"
   },
@@ -34,5 +36,6 @@
     "vite": "^5.4.10",
     "vite-plugin-vue-devtools": "^7.5.3",
     "vue-tsc": "^2.1.6"
-  }
+  },
+  "packageManager": "pnpm@8.15.1+sha1.8adba2d20330c02d3856e18c4eb3819d1d3ca6aa"
 }
