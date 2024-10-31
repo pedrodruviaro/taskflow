@@ -19,6 +19,9 @@ app.use(VueFire, {
 app.use(PrimeVue, {
   theme: {
     preset: Noir,
+    options: {
+      darkModeSelector: false || 'none',
+    },
   },
 })
 
