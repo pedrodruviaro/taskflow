@@ -1,7 +1,7 @@
 import Aura from '@primevue/themes/Aura'
 import { definePreset } from '@primevue/themes'
 
-export const Noir = definePreset(Aura, {
+export const AppPreset = definePreset(Aura, {
   semantic: {
     primary: {
       50: '{zinc.50}',

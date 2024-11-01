@@ -6,7 +6,7 @@ import router from '@/router'
 import PrimeVue from 'primevue/config'
 import ToastService from 'primevue/toastservice'
 import { createApp } from 'vue'
-import { Noir } from '@/assets/presets/Noir'
+import { AppPreset } from '@/assets/presets/Aura'
 import { VueFire, VueFireAuth } from 'vuefire'
 import { firebaseApp } from '@/libs/firebase'
 
@@ -19,7 +19,7 @@ app.use(VueFire, {
 
 app.use(PrimeVue, {
   theme: {
-    preset: Noir,
+    preset: AppPreset,
     options: {
       darkModeSelector: false || 'none',
     },
